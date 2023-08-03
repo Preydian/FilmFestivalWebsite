@@ -1,0 +1,50 @@
+.form-control{
+    border-radius: 7px;
+    border: 1.5px solid #E3E6ED;
+}
+input.form-control:focus{
+    box-shadow: none;
+    border: 1.5px solid #E3E6ED;
+    background-color: #F7F8FD;
+    letter-spacing: 1px;
+}
+#profile::after {
+    border-top: none !important;
+}
+#logoutBtn {
+    height: 40px;
+    width: 110px;
+    margin: 3px;
+}
+#logoutBtn svg {
+    margin-right: 5px;
+}
+.modal-footer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.smaller-picture {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.profile-picture-container:hover .smaller-picture {
+    opacity: 1;
+}
+
+.smaller-picture-create {
+    position: absolute;
+    top: 11%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.profile-picture-create-container:hover .smaller-picture-create {
+    opacity: 1;
+}
+

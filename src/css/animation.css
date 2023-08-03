@@ -1,0 +1,35 @@
+.fade-in-bottom {
+    animation: fadeInBottom 0.7s ease-out;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+@keyframes fadeInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slide-up {
+    animation: slideUp 0.7s ease-out;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

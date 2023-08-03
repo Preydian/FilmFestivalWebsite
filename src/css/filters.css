@@ -1,0 +1,37 @@
+#genreUl {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+#genreLi {
+    width: 50%; /* set to 25% to show 4 items per row */
+}
+#sortLi {
+    padding: 0 !important;
+}
+#ageRatingUl {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+#ageRatingLi {
+    width: 50%; /* set to 25% to show 4 items per row */
+}
+#genreBtn svg {
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+#ageRatingBtn svg {
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+#filterBtn svg {
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+#resetBtn svg {
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
