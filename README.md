@@ -1,5 +1,7 @@
 # Live site can be found [here](https://film-festival-website-preydian.vercel.app/).
 
+Uses this [API](https://github.com/Preydian/FilmFestivalAPI) in combination with ReactJS and TypeScript to form a full website to create film reviews.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
