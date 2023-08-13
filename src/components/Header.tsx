@@ -320,7 +320,8 @@ function Header() {
         .catch((error) => {
         })
         logout()
-        window.location.href = "http://localhost:8080/films"
+        navigate(`/films?startIndex=0&count=10`)
+        window.location.reload()
     }
 
     const register = () => {
