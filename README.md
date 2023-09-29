@@ -1,4 +1,4 @@
-# Live site can be found [here](aizen.gq).
+# Live site can be found [here](http://aizen.gq/).
 
 Uses this [API](https://github.com/Preydian/FilmFestivalAPI) in combination with ReactJS and TypeScript to form a full website to create film reviews.
 
