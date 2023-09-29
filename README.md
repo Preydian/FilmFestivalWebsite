@@ -1,4 +1,4 @@
-# Live site can be found [here](https://film-festival-website-preydian.vercel.app/).
+# Live site can be found [here](aizen.gq).
 
 Uses this [API](https://github.com/Preydian/FilmFestivalAPI) in combination with ReactJS and TypeScript to form a full website to create film reviews.
 
